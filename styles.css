@@ -29,6 +29,7 @@ body .first-section {
     background-color: #1F2937;
     height:820px;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .first-section .content {
@@ -105,4 +106,9 @@ body .first-section {
     font-size: 20px;
     font-weight: 900;
     border-radius: 8px;
+}
+
+.second-section {
+    display: flex;
+    height:820px;
 }
