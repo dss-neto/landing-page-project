@@ -8,8 +8,8 @@ html {
 body,
 .header,
 .header .links,
-.first-set,
-.first-set .content {
+.first-section,
+.first-section .content {
     display: flex;
 }
 
@@ -21,17 +21,17 @@ body {
     flex-direction: column;
 }
 
-body .first-set {
+body .first-section {
     color: #E5E7EB;
 }
 
-.first-set {
+.first-section {
     background-color: #1F2937;
     height:820px;
     justify-content: center;
 }
 
-.first-set .content {
+.first-section .content {
     flex-direction: column;
 }
 
