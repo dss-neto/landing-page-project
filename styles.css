@@ -12,6 +12,31 @@ body,
     display: flex;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    filter:brightness(90%)
+}
+
+a:active {
+    filter:brightness(75%)
+}
+
+a,
+a:after{
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+.information-container a {
+    width: fit-content;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     width: 100%;
@@ -41,14 +66,19 @@ body .first-section {
     width: 1020px;
     margin-left: auto;
     margin-right: auto;
+    max-height: 52px;
 }
 .header .logo {
     font-size: 24px;
     font-weight: 800;
 }
 
+.logo img {
+    max-height: 34px;
+}
+
 .header .links {
-    gap: 20px;
+    gap: 32px;
 }
 
 .header .links a {
@@ -105,7 +135,8 @@ body .first-section {
     border: 0px;
     font-size: 20px;
     font-weight: 900;
-    border-radius: 8px;
+    border-radius: 8px
+    
 }
 
 .second-section {
@@ -234,4 +265,40 @@ body .first-section {
     font-size: 18px;
     width: 100%;
     padding: 20px;
+}
+
+/* SIGN-UP PAGE */
+
+.sign-up-page .first-section {
+    height: 100vh;;
+}
+
+.first-section .main-container {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    align-items: center;;
+}
+
+.sign-up-page .title {
+    font-size: 32px;
+    color: #F9FAF8;
+    margin: 0px;
+    flex: 0;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sign-up-page button {
+    flex: 0;
+    width: fit-content;
+    padding: 8px 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 8px;
+    margin-top: 20px;
 }
