@@ -27,7 +27,7 @@ body .first-section {
 
 .first-section {
     background-color: #1F2937;
-    height:820px;
+    height: 620px;
     flex-shrink: 0;
     justify-content: center;
 }
@@ -114,8 +114,9 @@ body .first-section {
 .second-section {
     display: flex;
     flex-shrink: 0;
-    height:820px;
+    height: 620px;
     flex-direction: column;
+    align-items: center;
 }
 
 .second-heading {
@@ -124,4 +125,31 @@ body .first-section {
     color: #1F2937;
     text-align: center;
     padding: 60px;
+}
+
+.information-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.illustration-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 168px;
+    gap: 8px;
+}
+
+.illustration {
+    border: solid #3882F6 4px;
+    width: 0px;
+    padding: 80px;
+    border-radius: 16px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 18px;
+    color: #626c79;
 }
