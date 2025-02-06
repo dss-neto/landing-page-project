@@ -27,7 +27,7 @@ body .first-section {
 
 .first-section {
     background-color: #1F2937;
-    height: 620px;
+    height: 460px;
     flex-shrink: 0;
     justify-content: center;
 }
@@ -114,10 +114,12 @@ body .first-section {
 .second-section {
     display: flex;
     flex-shrink: 0;
-    height: 620px;
+    height: 460px;
     flex-direction: column;
     align-items: center;
 }
+
+
 
 .second-heading {
     font-size: 36px;
@@ -152,4 +154,36 @@ body .first-section {
     text-align: center;
     font-size: 18px;
     color: #626c79;
+}
+
+
+
+.third-section {
+    display: flex;
+    flex-shrink: 0;
+    background-color: #E5E7EB;
+    height: 460px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-author{
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    margin: auto;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    margin-right: 28px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
 }
