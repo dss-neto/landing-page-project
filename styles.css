@@ -187,3 +187,54 @@ body .first-section {
     font-weight: bold;
     font-size: 24px;
 }
+
+
+
+.fourth-section {
+    display: flex;
+    flex-shrink: 0;
+    height: 460px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    /*width: 1080px;*/
+    margin: auto;
+    background-color: #3882F6;
+    gap: 180px;
+    padding: 40px 120px;
+    border-radius: 12px;
+}
+
+.call-to-action .heading {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    background-color:#3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 12px;
+    height: 52px;
+    width: 200px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 20px;
+}
