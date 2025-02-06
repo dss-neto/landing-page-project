@@ -28,12 +28,13 @@ body .first-section {
 .first-section {
     background-color: #1F2937;
     height:820px;
-    justify-content: center;
     flex-shrink: 0;
+    justify-content: center;
 }
 
 .first-section .content {
     flex-direction: column;
+    min-width: 0;
 }
 
 .header {
@@ -61,7 +62,7 @@ body .first-section {
 .items {
     margin: auto;
     display: flex;
-    width: 980px;
+    width: 1020px;
     gap: 60px;
 }
 
@@ -86,6 +87,8 @@ body .first-section {
     flex-direction: column;
     flex: 1;
     height: fit-content;
+    flex-shrink: 1;
+    min-width: 0;
 }
 
 .items .text {
