@@ -52,7 +52,7 @@ body .first-section {
 .first-section {
     background-color: #1F2937;
     flex-direction: column;
-    height: 490px;
+    height: 450px;
     flex-shrink: 0;
     justify-content: center;
 }
@@ -60,7 +60,7 @@ body .first-section {
 .first-section .header {
     align-items: center;
     justify-content: space-between;
-    padding-top: 12px;
+    padding-top: 24px;
     padding-bottom: 12px;
     flex: 0 1;
     width: 1020px;
@@ -148,7 +148,7 @@ body .first-section {
 .second-section {
     display: flex;
     flex-shrink: 0;
-    height: 480px;
+    height: 510px;
     flex-direction: column;
     align-items: center;
 }
@@ -160,7 +160,8 @@ body .first-section {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding: 60px;
+    padding-bottom: 60px;
+    padding-top: 40px;
 }
 
 .second-section .information-container {
