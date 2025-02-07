@@ -101,6 +101,12 @@ body .first-section {
     justify-content: center;
 }
 
+.second-section .image-text .image img {
+    width: 160px;
+    height: 160px;
+    border-radius: 13px;
+}
+
 .first-section .image-text .title {
     font-size: 48px;
     color: #F9FAF8;
@@ -173,9 +179,9 @@ body .first-section {
 
 .second-section .image-text .image {
     border: solid #3882F6 4px;
-    width: 0px;
-    padding: 80px;
-    border-radius: 16px;
+    width: 168px;
+    height: 168px;
+    border-radius: 10%;
 }
 
 .second-section .image-text .text {
@@ -270,7 +276,7 @@ body .first-section {
 /* SIGN-UP PAGE */
 
 .sign-up-page .first-section {
-    height: 100vh;;
+    height: 100vh;
 }
 
 .first-section .main-container {
