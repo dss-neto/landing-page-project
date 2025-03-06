@@ -151,6 +151,8 @@ button:hover {
     border-radius: 20px;
 }
 
+
+
 .second-section {
     display: flex;
     flex-shrink: 0;
@@ -158,8 +160,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 .second-section .title {
     font-size: 36px;
