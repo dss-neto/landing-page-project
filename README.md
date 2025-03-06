@@ -8,7 +8,6 @@ The goal of this project is solidifying front-end skills through the aid of Flex
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
 * Icon made by [Freepik](https://www.flaticon.com/free-icon/saturn_2661360?term=saturn&page=1&position=6&origin=tag&related_id=2661360)
 * Space image by [Raphael Nogueira](https://unsplash.com/photos/milky-way-cok-OxpkrKQ)
 * Earth image by [Pixabay](https://www.pexels.com/photo/planet-earth-87651/)
