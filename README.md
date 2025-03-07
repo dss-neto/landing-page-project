@@ -4,7 +4,7 @@ A simple project that's part of [The Odin Project's](https://www.theodinproject.
 
 ## Description
 
-The goal of this project is solidifying front-end skills through the aid of Flexbox.
+The goal of this project is solidifying front-end skills with the aid of Flexbox.
 
 ## Acknowledgments
 
