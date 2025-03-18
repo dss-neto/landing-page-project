@@ -67,14 +67,18 @@ button:hover {
 
 .first-section .header {
   align-items: center;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 12px;
+  justify-content: space-around;
+  padding-top: 28px;
+  padding-bottom: 24px;
+  border-bottom: #626c79 solid 2px;
   flex: 0 1;
-  width: 1020px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   max-height: 52px;
+  background-color: #1f2937;
+  position: fixed;
+  top: 0;
 }
 .header .logo {
   font-size: 24px;
